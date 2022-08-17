@@ -48,6 +48,7 @@ button {
     font-family: 'Kalam', cursive;
     font-weight: bold;
     width: 200px;
+    cursor: pointer;
     margin-bottom: 5px;
     margin-right: 10px;
     border-radius: 6px;
@@ -62,7 +63,7 @@ button:hover{
 }
 #increment-btn:hover{
     background: transparent;
-    border:  2px solid #40f2ec;
+    border:  2px solid #ffb2ff;
     padding: 13px 18px;
 }
 #decrement-btn {
@@ -71,19 +72,27 @@ button:hover{
 }
 #decrement-btn:hover{
     background: transparent;
-    border:  2px solid #dff7bd;
+    border:  2px solid #4e87c7;
     padding: 13px 18px;
 }
 #save-btn{
-    background: linear-gradient(to left, #dff7bd, #40f2ec, #add2ed, #ffb2ff);
+    background: linear-gradient(to left top, #4e87c7, #0094c2, #009ca4, #009e78, #649b4b);
     padding: 15px 20px;
 }
 #save-btn:hover{
     background:transparent;
+    border: 2px solid #4e87c7;
+    padding: 13px 18px;
+}
+#reset-btn{
+    background: linear-gradient(to left, #dff7bd, #40f2ec, #add2ed, #ffb2ff);
+    padding: 15px 20px;
+}
+#reset-btn:hover{
+    background:transparent;
     border: 2px solid #ffb2ff;
     padding: 13px 18px;
 }
-
 .prev-entry{
     margin-top: 30px;
     font-family: 'Kalam', cursive;

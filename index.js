@@ -7,6 +7,7 @@ let count= 0
 
 /* Limited Number Of Counts */
 
+/*
 
 function increment(){
     if(count <=4){
@@ -15,17 +16,17 @@ function increment(){
         console.log(count)     
     }    
 }
+*/
 
 /* Unlimited Number Of Counts */
 
-/*
 function increment(){
     count = count + 1
     countEl.innerText=count    
     console.log(count)
     }
 
-*/
+
 /*  Decrement-function */
 
 function decrement(){

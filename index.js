@@ -55,7 +55,7 @@ function save(){
 /* After Save The Value Counter will continue work */
 
 function save(){
-    let countStr = " - " + count 
+    let countStr =  count  + " - "
     saveEl.innerText += countStr
     console.log(count)
 }

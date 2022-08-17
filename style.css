@@ -99,6 +99,10 @@ button:hover{
     color:#fff;
 }
 
+@media (min-width:768px) and (max-width:1200px){
+    
+}
+
 @media (max-width:767px){
     h1{
         font-size: 40px;

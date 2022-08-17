@@ -39,6 +39,9 @@ h5{
 .counter-box{
     margin-top: 150px;;
 }
+.button-container {
+    display: inline-flex;
+}
 button {
     border: none;
     font-size: 20px;
@@ -100,6 +103,9 @@ button:hover{
 }
 
 @media (min-width:768px) and (max-width:1200px){
+   .button-container {
+    display: block;
+    }
    .button-container-1{
      display:block;
      margin: 0 auto;

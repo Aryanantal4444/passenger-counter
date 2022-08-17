@@ -5,26 +5,13 @@ let count= 0
 
 /*  Increment-function */
 
-/* Limited Number Of Counts */
-
-/*
-
-function increment(){
-    if(count <=4){
-        count = count + 1
-        countEl.innerText=count   
-        console.log(count)     
-    }    
-}
-*/
-
 /* Unlimited Number Of Counts */
 
 function increment(){
     count = count + 1
     countEl.innerText=count    
     console.log(count)
-    }
+ }
 
 
 /*  Decrement-function */
@@ -44,7 +31,7 @@ let saveEl=document.getElementById("save-el")
 /* After Save The Value Counter Start For 0 */
 
 /*
-function save(){
+function reset(){
     let countStr= " - " + count
     saveEl.textContent += countStr
     countEl.textContent=0
@@ -56,8 +43,17 @@ function save(){
 /* After Save The Value Counter will continue work */
 
 function save(){
-    let countStr = " " + count  + " - "
-    saveEl.innerText += countStr
+    let countSt = " " + count + " - " 
+    saveEl.innerText += countSt
     console.log(count)
 }
 
+let resetEl=document.getElementById("reset-el")
+
+/* After Save The Value Counter Start For 0 */
+
+function reset(){
+    count = count * 0
+    countEl.innerText=count    
+    console.log(count)
+}

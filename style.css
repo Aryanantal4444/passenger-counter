@@ -135,9 +135,6 @@ button:hover{
         display: block;
         margin: 15px auto;
     }
-    .prev-entry{
-        text-align: left;
-    }
     .counter-box {
         margin-top: 50;
     }
